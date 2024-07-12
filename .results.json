@@ -1,44 +1,86 @@
 {
   "stats": {
-    "suites": 3,
-    "tests": 1,
-    "passes": 1,
+    "suites": 6,
+    "tests": 5,
+    "passes": 5,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-06-29T01:55:47.588Z",
-    "end": "2024-06-29T01:55:48.155Z",
-    "duration": 567
+    "failures": 0,
+    "start": "2024-07-12T09:49:28.267Z",
+    "end": "2024-07-12T09:49:28.809Z",
+    "duration": 542
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "modifies the customerName variable",
-      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'bob' to equal 'BOB'",
-        "showDiff": true,
-        "actual": "bob",
-        "expected": "BOB",
-        "stack": "AssertionError: expected 'bob' to equal 'BOB'\n    at Context.<anonymous> (test/indexTest.js:16:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     }
